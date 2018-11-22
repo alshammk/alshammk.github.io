@@ -6,12 +6,11 @@ layout: default
           <div id="primary">
             <h1>About Me</h1>
             <div class="img-holder">
-              <img id="about-img" src="/public/img/mazen-normal.jpeg" alt="">
+              <img id="about-img" src="/public/img/face.jpg" alt="">
             </div>
             <div id="intro-summary">
-              <p>Hi there, I'm Mazen; I am a college student at Oregon State University, I am majoring in Computer Science Applied in Artificial Intelligence; with minor in Actuarial Science.
-                I am an active memeber in <a href="http://osumlai.club/"><strong>OSU Machine Learning Club</strong></a>.
-                I do some projects on <a href="https://github.com/iamalotaibi"  target="_blank"><strong>GitHub</strong></a> to distract me from school.
+              <p>Hi there, I'm Khalid; I am a college student at Oregon State University, I am majoring in Mathematics; with minor in Actuarial Science.
+                I do some projects on <a href="https://github.com/alshammk"  target="_blank"><strong>GitHub</strong></a> to distract me from school.
                 I am <a href="/cv"><strong>available for work</strong></a>. You could <a href="/contact"><strong>contact me</strong></a>.</p>
             </div>
             <div id="hire-area">
@@ -24,7 +23,7 @@ layout: default
                   Loading the data just for you.
               </div>
               <script>
-                  GitHubCalendar(".calendar", "iamalotaibi");
+                  GitHubCalendar(".calendar", "alshammk");
               </script>
             </div>
             <div id="where-i-am">
@@ -51,14 +50,6 @@ layout: default
                   </li>
                 </div>
               </ul>
-            </div>
-            <div id="current-reading">
-              <h2>Current Readings:</h2>
-              <div id="book-cover">
-                {% for member in site.data.about.currentReadings %}
-                  <a href="{{ member.buy }}"  target="_blank"><img src="{{ member.cover }}" alt="{{ member.title }}" title="Read More"></a>
-                {% endfor %}
-              </div>
             </div>
           </div>
           {% include sidebar-main.html %}

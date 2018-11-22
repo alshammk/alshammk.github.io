@@ -79,25 +79,6 @@ permalink: /cv/
                     </ul>
                   </div>
                 </li>
-                <li class="resume-item" id="ex">
-                  <h2 class="item-title"><i class="fa fa-cogs" aria-hidden="true"></i> Experience</h2>
-                  <ul class="item-list">
-                    {% for member in site.data.cv.ex %}
-                    <li class="item-work">
-                      <h3 class="title">{{ member.event }}<span class="date"><i class="fa fa-calendar" aria-hidden="true"></i> {{ member.date }}</span></h3>
-                      <h4 class="location"><i class="fas fa-map-marker-alt" aria-hidden="true"></i> {{ member.location }}</h4>
-                      <div class="details">
-                        <p>{{ member.postion }}</p>
-                        <ul>
-                          {% for detail in member.details %}
-                          <li>{{ detail.statement }}</li>
-                          {% endfor %}
-                        </ul>
-                      </div>
-                    </li>
-                    {% endfor %}
-                  </ul>
-                </li>
                 <li class="resume-item" id="pro">
                   <h2 class="item-title"><i class="fa fa-folder-open" aria-hidden="true"></i> Projects</h2>
                   <ul class="item-list">
@@ -115,51 +96,22 @@ permalink: /cv/
                     {% endfor %}
                   </ul>
                 </li>
-                <li class="resume-item" id="act">
-                  <h2 class="item-title"><i class="fa fa-rocket" aria-hidden="true"></i> Extracurricular Activities</h2>
-                  <ul class="item-list">
-                    {% for member in site.data.cv.act %}
-                    <li class="item-work">
-                      <h3 class="title">{{ member.title }}<span class="date"><i class="fa fa-calendar" aria-hidden="true"></i> {{ member.date }}</span></h3>
-                      <h4 class="location"><i class="fas fa-map-marker-alt" aria-hidden="true"></i> {{ member.location }}</h4>
-                      <div class="details">
-                        <p>{{ member.position }}</p>
-                        <ul>
-                          {% for acc in member.details %}
-                          <li>{{ acc.statement }}</li>
-                          {% endfor %}
-                        </ul>
-                      </div>
-                    </li>
-                    {% endfor %}
-                  </ul>
-                </li>
                 <li class="resume-item">
                   <h2 class="item-title"><i class="fa fa-check" aria-hidden="true"></i> Skills</h2>
                   <div class="skill-box">
                     <div class="skill-block">
                       <ul class="skill-set">
-                          <li><h4 class="skill-title">I/O Languages:</h4></li>
-                          <li class="skill-list">C/C++ <i class="fas fa-heart" title="I LOVE IT"></i></li>
-                          <li class="skill-list">Java</li>
+                          <li><h4 class="skill-title">Web Development:</h4></li>
+                          <li class="skill-list">HTML</li>
+                          <li class="skill-list">CSS</li>
+                          <li class="skill-list">JavaScript</li>
                       </ul>
                       <ul class="skill-set">
                           <li><h4 class="skill-title">Scripting Languages:</h4></li>
-                          <li class="skill-list">JavaScript <i class="fas fa-heart"></i></li>
-                          <li class="skill-list">Python <i class="fas fa-heart" title="I LOVE IT"></i></li>
                           <li class="skill-list">R <i class="fas fa-heart" title="I LOVE IT"></i></li>
-                          <li class="skill-list">Bash <i class="fas fa-heart" title="I LOVE IT"></i></li>
+                          <li class="skill-list">MATHEMATICA <i class="fas fa-heart" title="I LOVE IT"></i> </li>
                           <li class="skill-list">MATLAB</li>
-                          <li class="skill-list">PHP</li>
-                      </ul>
-                      <ul class="skill-set">
-                          <li><h4 class="skill-title">Frameworks:</h4></li>
-                          <li class="skill-list">NumPy <i class="fas fa-heart" title="I LOVE IT"></i></li>
-                          <li class="skill-list">OpenCV<i class="fas fa-heart" title="I LOVE IT"></i></li>
-                          <li class="skill-list">PyTorch<i class="fas fa-heart" title="I LOVE IT"></i></li>
-                          <li class="skill-list">TensorFlow<i class="fas fa-heart" title="I LOVE IT"></i></li>
-                          <li class="skill-list">Node.js <i class="fas fa-heart" title="I LOVE IT"></i></li>
-                          <li class="skill-list">React.js</li>
+                          <li class="skill-list">Python</li>
                       </ul>
                     </div>
                   </div>
@@ -167,17 +119,8 @@ permalink: /cv/
                     <div class="skill-block">
                       <ul class="skill-set">
                           <li><h4 class="skill-title">Tools:</h4></li>
-                          <li class="skill-list">Git<i class="fas fa-heart" title="I LOVE IT"></i></i></li>
-                          <li class="skill-list">SQL<i class="fas fa-heart" title="I LOVE IT"></i></li>
-                          <li class="skill-list">NoSQL<i class="fas fa-heart" title="I LOVE IT"></i></li>
                           <li class="skill-list">Markdown<i class="fas fa-heart" title="I LOVE IT"></i></li>
                           <li class="skill-list">LaTeX<i class="fas fa-heart" title="I LOVE IT"></i></li>
-                      </ul>
-                      <ul class="skill-set">
-                          <li><h4 class="skill-title">Operating System:</h4></li>
-                          <li class="skill-list">GNU/Linux(Arch and Ubuntu)<i class="fas fa-heart" title="I LOVE IT"></i></li>
-                          <li class="skill-list">MacOS<i class="fas fa-heart" title="I LOVE IT"></i></li>
-                          <li class="skill-list">Windows</li>
                       </ul>
                       <ul class="skill-set">
                           <li><h4 class="skill-title">Languages:</h4></li>

@@ -34,7 +34,7 @@ h1, h2 {
   text-transform: uppercase;
 }
 a {
-  color: #e1122a;
+  color: #55AED8;
   text-decoration: none;
 }
 ol, ul {
@@ -124,7 +124,7 @@ margin-bottom: 1.1429em;
     color: #333;
 }
 #site-navbar{
-    background-color: #F73859;
+    background-color: #5894FE;
     border-bottom: 2px solid rgba(0, 0, 0, 0.15);
     color: #fff;
     display: block;
@@ -373,8 +373,8 @@ border: #f0f0f0 solid 2px;
         background-color: transparent;
         border-radius: 4px;
         border: 0;
-        box-shadow: inset 0 0 0 1px rgba(225, 18, 42, 0.5);
-        color: #E1122A !important;
+        box-shadow: inset 0 0 0 1px rgba(18, 108, 225, 0.5);
+        color: #5894FE !important;
         cursor: pointer;
         display: inline-block;
         font-size: 0.9em;
@@ -395,8 +395,8 @@ vertical-align: middle;
   min-width: 12em;
 }
 #hire-btn:hover{
-        background-color: rgba(225, 18, 42, 0.5);
-        box-shadow: inset 0 0 0 1px rgba(225, 18, 42, 0.5);
+        background-color: rgba(18, 166, 225, 0.5);
+        box-shadow: inset 0 0 0 1px rgba(18, 225, 215, 0.5);
         color: black !important;
 }
 #where-i-am ul li{
@@ -578,7 +578,7 @@ width: 100%;
 
 }
 .lab-tools-item:hover{
-  color: red;
+  color: skyblue;
 }
 .lab-tools-item .js-icon{
   width: 5rem;
@@ -615,7 +615,7 @@ width: 100%;
   text-decoration: none;
 }
 .lab-btn:hover{
-  color: red;
+  color: skyblue;
 }
 .lab-tools-btn{
   float: right;
@@ -760,7 +760,7 @@ width: 100%;
     white-space: nowrap;
     vertical-align: baseline;
     border-radius: .35em;
-background-color: #d9534f;
+background-color: rgb(168, 200, 252);
 float: right;
 padding: 0.5rem;
 }
@@ -819,14 +819,14 @@ margin-bottom: 1em;
 }
 #courses-btn  {
   background-color: transparent;
-    color: #e1122a;
+    color: #81E0FC;
     font-size: 1.5rem;
     border: none;
     cursor: pointer;
     outline:none; /* remove fake borders when clicking*/
 }
 #courses-btn i:hover {
-   color: #9d0c1d;
+   color: rgb(1, 48, 63);
 }
 #courses-list ul li{
 display: list-item;
@@ -886,8 +886,8 @@ display: list-item;
         background-color: transparent;
         border-radius: 4px;
         border: 0;
-        box-shadow: inset 0 0 0 1px rgba(225, 18, 42, 0.5);
-        color: #F73859 !important;
+        box-shadow: inset 0 0 0 1px rgba(18, 115, 225, 0.5);
+        color: #81E0FC !important;
         cursor: pointer;
         display: inline-block;
         font-size: 0.9em;
@@ -908,8 +908,8 @@ vertical-align: middle;
   min-width: 12em;
 }
 #download-btn:hover{
-        background-color: rgba(225, 18, 42, 0.5);
-        box-shadow: inset 0 0 0 1px rgba(225, 18, 42, 0.5);
+        background-color: rgba(18, 108, 225, 0.5);
+        box-shadow: inset 0 0 0 1px rgba(18, 66, 225, 0.5);
         color: black !important;
 }
 /* contact */
@@ -972,7 +972,7 @@ display: list-item;
 }
 .game-area {
   height: 400px;
-  color: red;
+  color: skyblue;
 }
 .coming-soon {
   text-align: center;
